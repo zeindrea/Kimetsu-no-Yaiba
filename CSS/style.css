@@ -1,0 +1,247 @@
+body{
+	background-color:white;
+}
+h1{
+	text-align:center;
+	font-size:2.5em;
+}
+p{
+	text-align:justify;
+	font-size:15px;
+	font-family:verdana;
+}
+.clearfix {
+  overflow: auto;
+}
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.float{
+	float:left;
+}
+li{
+	font-size:20px;
+}
+.color{
+	background-color:#E0E0C0;
+}
+.colorlink{
+	color:blue;
+}
+.blue{
+	color:black;
+}
+#img{
+	display:inline-block;
+	margin-left:auto;
+	margin-right:auto;
+	width:500px;
+	height:400px;
+}
+#img3{
+	display:inline-block;
+	margin-left:auto;
+	margin-right:auto;
+	width:500px;
+	height:400px;
+	float:right;
+}
+#image{
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	width:50%;
+	height:50%;
+}
+
+.column{
+	float: left;
+  	width: 100%;
+  	padding: 5px;
+}
+#img2{
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	width:100%;
+	height:50%;
+}
+h1:after
+{
+    content:' ';
+    display:block;
+    border:2px solid black;
+}
+h2:after{
+	content:' ';
+    display:block;
+    border:2px solid black;
+    font-size:30px;
+	text-align:left;
+}
+h3:after{
+	content:' ';
+    display:block;
+    border:2px solid black;
+    font-size:30px;
+	text-align:left;}
+
+.padded-content{
+padding-top:15px;
+padding-right:35;
+padding-bottom:15;
+padding-left:35;
+
+}
+.small{
+	width:200px;
+	height:150px;
+	float:left;
+	margin-left: 5px;
+	margin-bottom: 5px;;
+	display:inline-block;
+}
+.image img{
+  width:100%;
+  vertical-align:middle;
+}
+
+.text{
+  width:70%;
+  display: inline-block;
+}
+/* Split the screen in half */
+.split {
+  height: 100%;
+  width: 50%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+/* Control the left side */
+.left {
+  left: 0;
+  background-color: #111;
+}
+
+/* Control the right side */
+.right {
+  right: 0;
+  background-color: red;
+}
+
+/* If you want the content centered horizontally and vertically */
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+/* Style the image inside the centered container, if needed */
+.centered img {
+  width: 150px;
+  border-radius: 50%;
+}
+.dropbtn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+* {
+    box-sizing: border-box;
+}
+.responsive {
+    padding: 0 6px;
+    float: left;
+    width: 30.99999%;
+}
+@media only screen and (max-width: 700px) {
+    .responsive {
+        width: 49.99999%;
+        margin: 6px 0;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .responsive {
+        width: 100%;
+    }
+}
+div.gallery {
+    border: 1px solid #ccc;
+    width: 320px;
+    height:450px;
+}
+div.gallery:hover {
+    border: 1px solid #777;
+    
+}
+
+div.gallery img {
+    width: 320px;
+    height: 250px;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+  background-color: #3e8e41;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+.clearboth{
+	clear:both;
+}
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+th, td {
+  padding: 5px;
+  text-align: left;    
+}
+.marginright{
+	margin-right: 10px;
+}
+.selector-for-some-widget {
+  box-sizing: content-box;
+}
